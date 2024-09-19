@@ -1,0 +1,12 @@
+.container {
+    border: 10px solid steelblue;
+    padding: 1rem;
+  }
+  
+  h1 {
+    text-align: center;
+    color : white;
+    -webkit-text-stroke: 2px black;
+    font-size: 3em;
+    margin: 0;
+  }

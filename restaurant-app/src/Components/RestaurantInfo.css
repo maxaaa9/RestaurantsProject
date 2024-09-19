@@ -1,0 +1,29 @@
+.restaurant-info-container{
+    border: 1px solid peru;
+    border-radius: 5px;
+}
+
+.name{
+    text-align: center;
+    font-family: Fantasy;
+    font-size: 2.5em;
+    color: cyan;
+}
+
+.restaurant-data{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.res-data{
+    color: white;
+    padding: 0.5rem;
+}
+
+.address{
+    grid-column: span 2;
+}
+
+p {
+ margin: 1rem;
+}

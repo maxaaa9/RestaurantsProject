@@ -1,0 +1,45 @@
+.restaurant-item{
+    border: 3px solid #8a2be2;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr 1fr 0.5fr 1fr;
+}
+
+.image{
+    max-width: 40%;
+    margin: auto;
+    grid-column: span 2;
+}
+
+.description{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    grid-area: 4;
+    grid-column: span 2;
+}
+
+.center-grid-text{
+    font-size: 1.2rem;
+    grid-area: 3;
+    color: white;
+    min-width: 50%;
+	display: flex;  
+	align-items: center;
+    justify-content: center;
+}
+
+.item-name{
+	display: flex;
+    grid-column: span 2;
+    font-size: 1.2rem;
+    font-weight: bolder; 
+    color: white;
+	align-items: center;
+    justify-content: center;
+}
+
+p {
+    margin: 0;
+}
